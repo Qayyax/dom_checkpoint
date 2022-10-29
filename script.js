@@ -1,3 +1,9 @@
+const deleteMenu = document.getElementsByClassName("delete-menu")
+const list = document.getElementById("prd")
+function deleteMenus(){
+    list.parentNode.removeChild(list);
+    return false;
+}
 $(document).ready(function(){
     update_amounts();
     $('.qty, .price').on('keyup keypress blur change',

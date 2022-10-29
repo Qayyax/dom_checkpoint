@@ -66,3 +66,11 @@ button:focus,
     width: 100%;
     
 }
+.delete-menu{
+    border-radius: 20%;
+    margin-left: 20px;
+}
+.delete-menu:hover{
+    background-color: #;
+    color: #ff0000;
+}
